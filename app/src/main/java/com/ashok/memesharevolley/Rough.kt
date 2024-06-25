@@ -11,6 +11,7 @@ import com.bumptech.glide.Glide
 
 class Rough {
 
+    //this code is without singleton pattern
 
 //    fun loadMeme() {
 //        val imageView = findViewById<ImageView>(R.id.imageView)
