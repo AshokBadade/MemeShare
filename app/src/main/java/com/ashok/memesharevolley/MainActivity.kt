@@ -33,7 +33,7 @@ class MainActivity : AppCompatActivity() {
          val progressBar = findViewById<ProgressBar>(R.id.progressBar)
         progressBar.visibility = View.VISIBLE
 
-        val queue = Volley.newRequestQueue(this)
+//        val queue = Volley.newRequestQueue(this)      //because of singleton no need
 
 // Request a string response from the provided URL.
         val url = "https://meme-api.com/gimme"
